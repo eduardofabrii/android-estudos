@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CalcularPreco</string>
+    <string name="tv_titulo">Marque o item e digite a quantidade:</string>
+    <string name="item_1">Facas R$</string>
+    <string name="item_2">Pratos R$</string>
+    <string name="item_3">Taças R$</string>
+    <string name="item_4">Garfos R$</string>
+    <string name="item_5">Colheres R$</string>
+    <string name="btn">Calcular Preço</string>
+
+</resources>

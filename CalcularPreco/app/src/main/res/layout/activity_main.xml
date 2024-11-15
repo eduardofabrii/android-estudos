@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_titulo"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/tv_gambiarradeespaco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="242dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/cb_item_quatro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#78250D"
+                        android:text="@string/item_4"
+                        android:textColor="#000000"
+                        android:textColorLink="#78250D" />
+
+                    <CheckBox
+                        android:id="@+id/cb_item_um"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#78250D"
+                        android:text="@string/item_1"
+                        android:textColor="#000000"
+                        android:textColorLink="#78250D" />
+
+                    <CheckBox
+                        android:id="@+id/cb_item_dois"
+                        style="@style/Widget.Material3.CompoundButton.CheckBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#78250D"
+                        android:duplicateParentState="true"
+                        android:text="@string/item_2"
+                        android:textColor="#000000"
+                        android:textColorHighlight="#78250D"
+                        android:textColorHint="#78250D"
+                        android:textColorLink="#78250D" />
+
+                    <CheckBox
+                        android:id="@+id/cb_item_tres"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#78250D"
+                        android:text="@string/item_3"
+                        android:textColor="#000000"
+                        android:textColorLink="#78250D" />
+
+                    <CheckBox
+                        android:id="@+id/cb_item_cinco"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/item_5"
+                        android:textColor="#000000"
+                        android:textColorLink="#78250D"
+                        android:buttonTint="#78250D" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="166dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/et_item_um"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:text="0"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/et_item_dois"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:text="0"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/et_item_tres"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:text="0"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/et_item_quatro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:text="0"
+                        android:textColor="#000000" />
+
+                    <EditText
+                        android:id="@+id/et_item_cinco"
+                        android:layout_width="match_parent"
+                        android:layout_height="58dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:text="0"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_calcular_total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoText="false"
+                android:backgroundTint="#591919"
+                android:onClick="calcularPrecoTotal"
+                android:text="@string/btn"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_valor_total"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Preço Total: R$"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
