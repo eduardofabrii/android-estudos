@@ -13,7 +13,7 @@ Aqui, você encontrará uma coleção de pequenos projetos desenvolvidos como pa
 
 ## 🚀 Como usar
 + Clone ou faça o download do repositório:
-+ git clone https://github.com/eduardofabrii/android-estudos
++ git clone https://github.com/eduardofabrii/android-estudos.git
 + Abra o Android Studio e importe o projeto que deseja explorar.
 + Execute o projeto em um emulador ou dispositivo Android real.
 
