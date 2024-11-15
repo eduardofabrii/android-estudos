@@ -17,5 +17,5 @@ Aqui, você encontrará uma coleção de pequenos projetos desenvolvidos como pa
 + Java: Linguagem principal para desenvolvimento dos projetos.
 + Android Studio: IDE para desenvolvimento Android.
 
-🎯 Objetivo
+🎯 Objetivo<br>
 Este repositório é uma forma de acompanhar minha evolução e compartilhar meus aprendizados enquanto me aprofundo no desenvolvimento Android.
