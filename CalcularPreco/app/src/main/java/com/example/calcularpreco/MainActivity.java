@@ -36,11 +36,11 @@ public class MainActivity extends AppCompatActivity {
 
         btn_calcular = (Button) findViewById(R.id.btn_calcular_total);
 
-        cb1 = (CheckBox) findViewById(R.id.cb_item_um);
-        cb2 = (CheckBox) findViewById(R.id.cb_item_dois);
-        cb3 = (CheckBox) findViewById(R.id.cb_item_tres);
-        cb4 = (CheckBox) findViewById(R.id.cb_item_quatro);
-        cb5 = (CheckBox) findViewById(R.id.cb_item_cinco);
+        cb1 = (CheckBox) findViewById(R.id.cb_item_1);
+        cb2 = (CheckBox) findViewById(R.id.cb_item_2);
+        cb3 = (CheckBox) findViewById(R.id.cb_item_3);
+        cb4 = (CheckBox) findViewById(R.id.cb_item_4);
+        cb5 = (CheckBox) findViewById(R.id.cb_item_5);
 
         valor_real = (TextView) findViewById(R.id.tv_valor_total);
 
@@ -61,6 +61,8 @@ public class MainActivity extends AppCompatActivity {
         cb3.setText(cb3.getText().toString() + precot3);
         cb4.setText(cb4.getText().toString() + precot4);
         cb5.setText(cb5.getText().toString() + precot5);
+
+        valor_real.setText("Preço Total: " + String.format("R$ %.2f", 0.0));
     }
 
     public void calcularPrecoTotal(View v) {

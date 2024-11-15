@@ -49,16 +49,7 @@
                     android:orientation="vertical">
 
                     <CheckBox
-                        android:id="@+id/cb_item_quatro"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:buttonTint="#78250D"
-                        android:text="@string/item_4"
-                        android:textColor="#000000"
-                        android:textColorLink="#78250D" />
-
-                    <CheckBox
-                        android:id="@+id/cb_item_um"
+                        android:id="@+id/cb_item_1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:buttonTint="#78250D"
@@ -67,20 +58,16 @@
                         android:textColorLink="#78250D" />
 
                     <CheckBox
-                        android:id="@+id/cb_item_dois"
-                        style="@style/Widget.Material3.CompoundButton.CheckBox"
+                        android:id="@+id/cb_item_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:buttonTint="#78250D"
-                        android:duplicateParentState="true"
                         android:text="@string/item_2"
                         android:textColor="#000000"
-                        android:textColorHighlight="#78250D"
-                        android:textColorHint="#78250D"
                         android:textColorLink="#78250D" />
 
                     <CheckBox
-                        android:id="@+id/cb_item_tres"
+                        android:id="@+id/cb_item_3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:buttonTint="#78250D"
@@ -89,13 +76,22 @@
                         android:textColorLink="#78250D" />
 
                     <CheckBox
-                        android:id="@+id/cb_item_cinco"
+                        android:id="@+id/cb_item_4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:buttonTint="#78250D"
+                        android:text="@string/item_4"
+                        android:textColor="#000000"
+                        android:textColorLink="#78250D" />
+
+                    <CheckBox
+                        android:id="@+id/cb_item_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#78250D"
                         android:text="@string/item_5"
                         android:textColor="#000000"
-                        android:textColorLink="#78250D"
-                        android:buttonTint="#78250D" />
+                        android:textColorLink="#78250D" />
 
                 </LinearLayout>
 
